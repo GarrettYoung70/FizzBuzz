@@ -1,13 +1,11 @@
-i = 1
-
-while(i <= 100):
-    if i % 3 == 0 and i  % 5 == 0:
+for value in range(1, 101):
+    if value % 3 == 0 and value % 5 == 0:
         print("FizzBuzz")
-    elif i % 3 == 0:
+        continue
+    elif value % 3 == 0:
         print("Fizz")
-    elif i % 5 == 0:
+        continue
+    elif value % 5 == 0:
         print("Buzz")
-    else:
-        print(i)
-    i += 1
-
+        continue
+    print(value)
