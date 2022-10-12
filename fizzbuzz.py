@@ -1,13 +1,13 @@
-x = 1
+i = 1
 
-while(x <= 100):
-    if x % 3 == 0 and x  % 5 == 0:
+while(i <= 100):
+    if i % 3 == 0 and i  % 5 == 0:
         print("FizzBuzz")
-    elif x % 3 == 0:
+    elif i % 3 == 0:
         print("Fizz")
-    elif x % 5 == 0:
+    elif i % 5 == 0:
         print("Buzz")
     else:
-        print(x)
-    x += 1
+        print(i)
+    i += 1
 
